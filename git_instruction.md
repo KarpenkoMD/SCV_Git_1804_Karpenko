@@ -31,14 +31,16 @@
 * можно объединить две команды `git add` и `git commit` выполнив `git commit -a -m 'сообщение'`
 
 ## n. команды Git
-```
-git add
-git commit - m 'message'
-git commit - m 'message'
-git status
-git add
-git log
-```
-## n+1. Литероатура 
+
+Команда | действие
+--------|---------
+git add | сохранение файла
+git commit - m 'message' | добавление коммита
+git status | текущий статус файлов в репозитории
+git log | список коммитов
+git log --oneline | короткий список коммитов
+
+## n+1. Литература 
+
 > С.Чакон, Б.Штрауб - Git для профессионального программиста (2016)
 > https://git-scm.com/book/ru/v2
